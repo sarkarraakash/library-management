@@ -1,0 +1,308 @@
+@media (min-width: 992px) {
+    .navbar-brand {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-brand {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F9EFDB;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #3C3633 !important;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 25px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #7E6363 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23ffffff' class='bi bi-list' viewBox='0 0 16 16'%3e%3cpath fill-rule='evenodd' d='M2.5 4.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5z'/%3e%3c/svg%3e");
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0 10px;
+    }
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    padding: 5px 20px;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    border-radius: 5px;
+    color: #3E3232;
+    /* Added to change text color on hover */
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    background-color: #503C3C;
+    /* Changed background color of active link */
+    border-radius: 5px;
+    color: #fff;
+    /* Changed text color of active link */
+}
+
+.navbar-nav .nav-item .nav-link.active:hover {
+    background-color: #A87C7C;
+    /* Changed background color of active link on hover */
+}
+
+.navbar-toggler {
+    top: 20px;
+    /* Adjust as needed */
+    right: 25px;
+    /* Adjust as needed */
+    z-index: 1001;
+    /* Ensure it's above the navbar-collapse */
+    font-size: 1.3rem;
+    /* Adjust the size of the icon */
+}
+
+/* Main Content Styles */
+.book-of-the-day {
+    background-color: #EEEDEB !important;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-of-the-day img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Button color */
+.book-of-the-day .btn-primary {
+    background-color: #7E6363;
+    /* Blue button background */
+    border-color: #7E6363;
+    /* Blue border color */
+    color: #fff;
+    /* White text color */
+}
+
+.book-of-the-day .btn-primary:hover {
+    background-color: #A87C7C;
+    /* Set the background color of the buttons inside the card body on hover */
+    border-color: #A87C7C;
+    /* Set the border color of the buttons inside the card body on hover */
+}
+
+/* Button color */
+.book-of-the-day .btn-success {
+    background-color: #7E6363;
+    /* Green button background */
+    border-color: #7E6363;
+    /* Green border color */
+    color: #fff;
+    /* White text color */
+}
+
+.book-of-the-day .btn-success:hover {
+    background-color: #A87C7C;
+    /* Set the background color of the buttons inside the card body on hover */
+    border-color: #A87C7C;
+    /* Set the border color of the buttons inside the card body on hover */
+}
+
+.user-review {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #EEEDEB;
+    /* Set the desired background color */
+    border-radius: 8px;
+    box-shadow: 0px px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* Rounded profile picture */
+    margin-right: 10px;
+}
+
+.profile-name {
+    font-weight: bold;
+}
+
+.review {
+    padding-left: 50px;
+    /* Indent review content */
+}
+
+.rating {
+    color: #ffc107;
+    /* Yellow color for stars */
+}
+
+.comment {
+    margin-top: 5px;
+}
+
+.checked {
+    color: #ffc107;
+    /* Yellow color for filled stars */
+}
+
+
+/* About Us Page Styles */
+.about-container {
+    margin-top: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #EEEDEB;
+    border-radius: 8px;
+    margin-bottom: 200px;
+}
+
+.about-container h2 {
+    color: #343a40;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.btn-details {
+    width: 100%;
+}
+
+/* Custom CSS to change the colors of the cards */
+.card {
+    background-color: #EEEDEB;
+    /* Set the background color of the cards */
+    border: 1px solid #CCCCCC;
+    /* Set the border color of the cards */
+}
+
+.card-title {
+    color: #333333;
+    /* Set the color of the card titles */
+}
+
+.card-text {
+    color: #666666;
+    /* Set the color of the card text */
+}
+
+.card-body a.btn {
+    background-color: #7E6363;
+    /* Set the background color of the buttons inside the card body */
+    border-color: #7E6363;
+    /* Set the border color of the buttons inside the card body */
+    color: #FFFFFF;
+    /* Set the text color of the buttons inside the card body */
+}
+
+.card-body a.btn:hover {
+    background-color: #A87C7C;
+    /* Set the background color of the buttons inside the card body on hover */
+    border-color: #A87C7C;
+    /* Set the border color of the buttons inside the card body on hover */
+}
+
+/* Button color */
+.modal-footer .btn-primary {
+    background-color: #7E6363;
+    /* Set the background color of the buttons inside the card body */
+    border-color: #7E6363;
+    /* Set the border color of the buttons inside the card body */
+    color: #FFFFFF;
+    /* Set the text color of the buttons inside the card body */
+}
+
+/* Button color */
+.modal-footer .btn-primary:hover {
+    background-color: #A87C7C;
+    /* Set the background color of the buttons inside the card body on hover */
+    border-color: #A87C7C;
+    /* Set the border color of the buttons inside the card body on hover */
+}
+
+/* Button color */
+.modal-footer .btn-success {
+    background-color: #7E6363;
+    /* Set the background color of the buttons inside the card body */
+    border-color: #7E6363;
+    /* Set the border color of the buttons inside the card body */
+    color: #FFFFFF;
+    /* Set the text color of the buttons inside the card body */
+}
+
+/* Button color */
+.modal-footer .btn-success:hover {
+    background-color: #A87C7C;
+    /* Set the background color of the buttons inside the card body on hover */
+    border-color: #A87C7C;
+    /* Set the border color of the buttons inside the card body on hover */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #3C3633;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
